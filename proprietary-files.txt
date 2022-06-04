@@ -111,6 +111,15 @@ odm/lib64/camera/com.qti.sensormodule.lemonade.truly_imx471.bin
 odm/lib64/camera/com.qti.tuned.semco_imx689.bin
 odm/lib64/camera/com.qti.tuned.shine_gc02m1b.bin
 
+# Graphics (Adreno firmware)
+vendor/firmware/a660_gmu.bin
+vendor/firmware/a660_sqe.fw
+vendor/firmware/a660_zap.b00
+vendor/firmware/a660_zap.b01
+vendor/firmware/a660_zap.b02
+vendor/firmware/a660_zap.elf
+vendor/firmware/a660_zap.mdt
+
 # NFC
 odm/etc/nfc/libnfc-mtp-SN100.conf_20821:vendor/etc/libnfc-nxp.conf
 odm/etc/nfc/libnfc-nci.conf_20821:vendor/etc/libnfc-nci.conf
