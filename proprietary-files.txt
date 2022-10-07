@@ -209,6 +209,11 @@ vendor/firmware/ipa_fws.b04
 vendor/firmware/ipa_fws.elf
 vendor/firmware/ipa_fws.mdt
 
+# Firmware (Touchpanel)
+odm/firmware/tp/20820/FW_S3908_SAMSUNG.img
+odm/firmware/tp/20820/FW_S3908_SAMSUNG_FAE.img
+odm/firmware/tp/20820/LIMIT_S3908_SAMSUNG.img
+
 # Firmware (VPU)
 vendor/firmware/vpu20_4v.b01
 vendor/firmware/vpu20_4v.b02
