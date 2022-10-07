@@ -66,6 +66,10 @@ odm/lib64/camera/com.qti.sensormodule.lemonade.truly_imx471.bin
 odm/lib64/camera/com.qti.tuned.semco_imx689.bin
 odm/lib64/camera/com.qti.tuned.shine_gc02m1b.bin
 
+# NFC
+odm/etc/nfc/libnfc-mtp-SN100.conf_20821:vendor/etc/libnfc-nxp.conf
+odm/etc/nfc/libnfc-nci.conf_20821:vendor/etc/libnfc-nci.conf
+
 # Sensors
 odm/etc/sensor/config/lahaina_aw9610x_0.json
 odm/etc/sensor/config/lahaina_aw9610x_down_0.json
