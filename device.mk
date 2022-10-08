@@ -39,10 +39,6 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
-# Vendor Boot Modules
-PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/prebuilt/modules,$(TARGET_COPY_OUT_VENDOR_RAMDISK)/lib/modules)
-
 # Inherit from the common OEM chipset makefile.
 $(call inherit-product, device/oplus/sm8350-common/common.mk)
 
