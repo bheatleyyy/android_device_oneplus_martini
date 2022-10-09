@@ -98,6 +98,30 @@ vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so
 # Audio
 odm/lib/libaudioEngineerTest.so
 vendor/lib/hw/audio.primary.lahaina.so
+vendor/lib/liba2dpoffload.so
+vendor/lib/libextcamera_client.so
+vendor/lib/libgui1_vendor.so
+vendor/lib/libssrec.so
+vendor/lib/vendor.oplus.hardware.extcamera@1.0.so
+
+# Audio libraries
+vendor/lib/soundfx/libasphere.so
+vendor/lib/soundfx/libqcbassboost.so
+vendor/lib/soundfx/libqcreverb.so
+vendor/lib/soundfx/libqcvirt.so
+vendor/lib/soundfx/libshoebox.so
+vendor/lib/libacdb-fts.so
+vendor/lib/libacdbloader.so
+vendor/lib/libacdbrtac.so
+vendor/lib/libadiertac.so
+vendor/lib/libadm.so
+vendor/lib/libadsprpc.so
+vendor/lib/libaudcal.so
+vendor/lib/libaudio_log_utils.so
+vendor/lib/libaudioparsers.so
+vendor/lib/libhdmipassthru.so
+vendor/lib/libqtigef.so
+vendor/lib64/libadsprpc.so
 
 # Audio Firmware
 odm/firmware/tfa98xx.cnt
@@ -339,6 +363,7 @@ vendor/lib64/libcom.qti.chinodeutils.so
 vendor/lib64/libcvface_api.so
 vendor/lib64/libhdrdynamic.so
 vendor/lib64/libhdrdynamicootf.so
+vendor/lib64/libofflinelog.so
 vendor/lib64/libsnsapi.so
 vendor/lib64/libsnsdiaglog.so
 vendor/lib64/libsns_device_mode_stub.so
@@ -463,6 +488,13 @@ vendor/lib64/libmmcamera_mfnr_t4.so
 vendor/lib64/libmmcamera_pdpc.so
 
 # Display (PixelWorks)
+odm/lib64/libpwirisfeature.so
+odm/lib64/libpwirishalwrapper.so
+odm/lib64/vendor.pixelworks.hardware.display@1.0.so
+odm/lib64/vendor.pixelworks.hardware.display@1.1.so
+odm/lib64/vendor.pixelworks.hardware.feature@1.0.so
+vendor/lib64/vendor.pixelworks.hardware.display@1.0.so
+vendor/lib64/vendor.pixelworks.hardware.display@1.1.so
 odm/lib64/libsnapdragoncolor-pxlw.so
 odm/bin/hw/vendor.pixelworks.hardware.display.iris-service
 odm/bin/hw/vendor.pixelworks.hardware.feature.irisfeature-service
@@ -535,6 +567,9 @@ odm/vendor/firmware/goodixfp.b05
 odm/vendor/firmware/goodixfp.b06
 odm/vendor/firmware/goodixfp.b07
 odm/vendor/firmware/goodixfp.mdt
+odm/lib/vendor.oplus.hardware.orms@1.0.so
+odm/lib64/vendor.oplus.hardware.orms@1.0.so
+odm/lib64/libormshalclient.so
 
 # Firmware (CVP)
 vendor/firmware/evass.b00
