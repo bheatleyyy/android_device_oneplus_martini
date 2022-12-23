@@ -12,6 +12,9 @@ DEVICE_PATH := device/oneplus/martini
 # Display
 TARGET_SCREEN_DENSITY := 450
 
+# Kernel
+TARGET_KERNEL_ADDITIONAL_FLAGS := CONFIG_OPLUS_CHG_OP9RT_PMIC_VOOCPHY=y
+
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
