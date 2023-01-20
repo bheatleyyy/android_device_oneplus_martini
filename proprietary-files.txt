@@ -1035,6 +1035,11 @@ odm/etc/nfc/libnfc-nci.conf_20821:vendor/etc/libnfc-nci.conf
 odm/etc/nfc/sn100u.bin_sn100t_fw_01_10_57:vendor/firmware/sn100u.bin
 odm/lib/libsn100u_fw.so:vendor/lib/libsn100u_fw.so
 
+# Perf (OPLUS)
+odm/bin/hw/vendor.oplus.hardware.performance@1.0-service
+odm/etc/init/vendor.oplus.hardware.performance@1.0-service.rc
+odm/etc/vintf/manifest/manifest_oplus_performance.xml
+
 # Secure element
 odm/bin/hw/vendor.qti.secure_element@1.2-service
 odm/etc/init/vendor.qti.secure_element@1.2-service.rc
