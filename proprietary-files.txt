@@ -111,6 +111,25 @@ odm/lib64/camera/com.qti.sensormodule.lemonade.truly_imx471.bin
 odm/lib64/camera/com.qti.tuned.semco_imx689.bin
 odm/lib64/camera/com.qti.tuned.shine_gc02m1b.bin
 
+# Fingerprint
+odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service
+odm/bin/init.oplus.fingerprints.sh
+odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc
+odm/etc/vintf/manifest/manifest_oplus_fingerprint.xml
+odm/lib64/hw/fingerprint.goodix_G3.default.so
+odm/lib64/anc.hal.so
+odm/lib64/libgf_hal_G3.so
+odm/lib64/vendor.oplus.hardware.commondcs@1.0.so
+odm/vendor/firmware/goodixfp.b00
+odm/vendor/firmware/goodixfp.b01
+odm/vendor/firmware/goodixfp.b02
+odm/vendor/firmware/goodixfp.b03
+odm/vendor/firmware/goodixfp.b04
+odm/vendor/firmware/goodixfp.b05
+odm/vendor/firmware/goodixfp.b06
+odm/vendor/firmware/goodixfp.b07
+odm/vendor/firmware/goodixfp.mdt
+
 # Graphics (Adreno firmware)
 vendor/firmware/a660_gmu.bin
 vendor/firmware/a660_sqe.fw
