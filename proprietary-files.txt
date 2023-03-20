@@ -908,6 +908,14 @@ vendor/lib64/vendor.oplus.hardware.cameraextension@1.0.so
 vendor/lib64/vendor.oplus.hardware.cammidasservice@1.0.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 
+# Camera (Oppo Camera Algo) - from OnePlus 11 5G CPH2449_11_A.08
+odm/lib64/libOPAlgoCamAIBeautyBodyDetection.so|76a24f95e193cdbfde17bd5d92f51bb4396784eb
+odm/lib64/libOPAlgoCamAiBeautyEyeRetouchCn.so|42b265bae2b164cd270814852e7af9999b2ec46e
+odm/lib64/libOPAlgoCamAiBeautyFaceRetouchCn.so|b4a52ce1cd216f76b1eb4266b2e382cc9221c3d0
+odm/lib64/libOPAlgoCamAiUnifySkin.so|ade08eeeaf4db4e731a0b1a0f25d76721512236e
+odm/lib64/libOPAlgoCamFaceBeautyCap.so|4cac7195cde65cbdd1a9acd79f5d9a6eb87a9442
+odm/lib64/libOPAlgoCamSinglePortrait.so|6b161ad07a6b9faf931ec7e43b6e1e9e7abf7aec
+
 # Camera firmware
 vendor/firmware/CAMERA_ICP.elf
 vendor/firmware/CAMERA_ICP_170.elf
